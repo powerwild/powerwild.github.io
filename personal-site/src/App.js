@@ -48,8 +48,8 @@ function App() {
 
   return (
     <div className="App">
-      <div>
-        <img src={pic} alt='My Profile' />
+      <div className='prof-details'>
+        <img className='prof-img' src={pic} alt='My Profile' />
         <div>I've spent the first part of my work life jumping from one menial job to the next.
           Over the years, I've unknowingly been seeking out more different jobs that didn't require an education.
           Honestly I was prepared to continue living my life scrapping by without ever accomplishing anything that I could take pride in.
@@ -62,49 +62,57 @@ function App() {
 
           Hi. My name is Casey Spears, and I'm striving for a better tomorrow.</div>
       </div>
-      <div>
+      <div className='clickables'>
         <div onClick={handleLinks} value='links'>Links</div>
         <div onClick={handleProjects} value='projects'>Projects</div>
         <div onClick={handleSkills} value='skills'>Skills</div>
         <div onClick={handleContact} value='contact'>Contact Me</div>
       </div>
-      {showLinks ? (<div>
-        <ul>
+      {showLinks ? (
+        <ul className='proff-links'>
           <li><a href='https://www.linkedin.com/in/casey-spears-4a6042180/' target='_blank' rel="noreferrer">My Linkedin</a></li>
           <li><a href='https://github.com/powerwild' target='_blank' rel="noreferrer">My GitHub</a></li>
           <li><a href='https://angel.co/u/casey-spears-1' target='_blank' rel="noreferrer">My AngelList</a></li>
         </ul>
-      </div>) : null}
+      ) : null}
       {showProjects ? (<div>
         <ul>
-          <li>
-            <img src={GT} alt='My project'/>
-            <div>Game Traderz is an online trading application for the temporary exchange of physical copies of games owned by users.</div>
-            <a href='https://game-traderz.herokuapp.com' target='_blank' rel="noreferrer">Live site</a>
-            <a href='https://github.com/powerwild/game-traderz' target='_blank' rel="noreferrer">Repository</a>
+          <li className='project'>
+            <img className='proj-img' src={GT} alt='My project'/>
+            <div className='proj-dets'>Game Traderz is an online trading application for the temporary exchange of physical copies of games owned by users.</div>
+            <div className='proj-links'>
+              <a href='https://game-traderz.herokuapp.com' target='_blank' rel="noreferrer">Live site</a>
+              <a href='https://github.com/powerwild/game-traderz' target='_blank' rel="noreferrer">Repository</a>
+            </div>
           </li>
-          <li>
-            <img src={DEV} alt='My project'/>
-            <div>Develp is an application for reviewing and rating developers you have interacted with in a professional setting.</div>
-            <a href='https://develp7.herokuapp.com' target='_blank' rel="noreferrer">Live site</a>
-            <a href='https://github.com/powerwild/deVelp' target='_blank' rel="noreferrer">Repository</a>
+          <li className='project'>
+            <img className='proj-img' src={DEV} alt='My project'/>
+            <div className='proj-dets'>Develp is an application for reviewing and rating developers you have interacted with in a professional setting.</div>
+            <div className='proj-links'>
+              <a href='https://develp7.herokuapp.com' target='_blank' rel="noreferrer">Live site</a>
+              <a href='https://github.com/powerwild/deVelp' target='_blank' rel="noreferrer">Repository</a>
+            </div>
           </li>
-          <li>
-            <img src={HB} alt='My project'/>
-            <div>HauntedBnB is a clone of AirBnB with a haunted/decrepit spin for those that like to live life with one foot in the grave.</div>
-            <a href='https://haunted-bnb.herokuapp.com' target='_blank' rel="noreferrer">Live site</a>
-            <a href='https://github.com/powerwild/HauntedBnB' target='_blank' rel="noreferrer">Repository</a>
+          <li className='project'>
+            <img className='proj-img' src={HB} alt='My project'/>
+            <div className='proj-dets'>HauntedBnB is a clone of AirBnB with a haunted/decrepit spin for those that like to live life with one foot in the grave.</div>
+            <div className='proj-links'>
+              <a href='https://haunted-bnb.herokuapp.com' target='_blank' rel="noreferrer">Live site</a>
+              <a href='https://github.com/powerwild/HauntedBnB' target='_blank' rel="noreferrer">Repository</a>
+            </div>
           </li>
-          <li>
-            <img src={LO} alt='My project'/>
-            <div>Game Traderz is an online trading application for the temporary exchange of physical copies of games owned by users.</div>
-            <a href='https://lifeoverflow.herokuapp.com' target='_blank' rel="noreferrer">Live site</a>
-            <a href='https://github.com/DavidPhamThinkful/Life-Overflow' target='_blank' rel="noreferrer">Repository</a>
+          <li className='project'>
+            <img className='proj-img' src={LO} alt='My project'/>
+            <div className='proj-dets'>Game Traderz is an online trading application for the temporary exchange of physical copies of games owned by users.</div>
+            <div className='proj-links'>
+              <a href='https://lifeoverflow.herokuapp.com' target='_blank' rel="noreferrer">Live site</a>
+              <a href='https://github.com/DavidPhamThinkful/Life-Overflow' target='_blank' rel="noreferrer">Repository</a>
+            </div>
           </li>
         </ul>
       </div>) : null}
-      {showSkills ? (<div>
-        <ul>
+      {showSkills ? (
+        <ul className='skills-list'>
           <li>Node</li>
           <li>HTML</li>
           <li>CSS</li>
@@ -117,8 +125,8 @@ function App() {
           <li>Flask</li>
           <li>React/Redux</li>
         </ul>
-      </div>) : null}
-      {showContactInfo ? (<div>
+      ) : null}
+      {showContactInfo ? (<div className='contact-info'>
         <div>Email: spearscase@gmail.com</div>
         <div>Phone: 720 939 1719</div>
         <div>Or feel free to message me through Linkedin or AngelList</div>
