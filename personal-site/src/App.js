@@ -50,17 +50,11 @@ function App() {
     <div className="App">
       <div className='prof-details'>
         <img className='prof-img' src={pic} alt='My Profile' />
-        <div>I've spent the first part of my work life jumping from one menial job to the next.
-          Over the years, I've unknowingly been seeking out more different jobs that didn't require an education.
-          Honestly I was prepared to continue living my life scrapping by without ever accomplishing anything that I could take pride in.
-          Two and a half years ago I met the woman that would become my wife. Since then I have been striving to do and be better.
-          I was tired of just surviving and decided to actually start building a life for myself and the family that I was creating.
-          I came to the conclusion that I would never be better if I didn't better myself, so I set out to find an actual career that would be a good fit for me.
-          I discovered several coding programs, but App Academy offered one of the longest programs and was NOT FREE.
-          I'm a realist and understand that my future will take a big investment on my part.
-          I am and will continue making that investment to achieve the accomplishment I can take pride in, and to provide a better future for the ones I care about.
-
-          Hi. My name is Casey Spears, and I'm striving for a better tomorrow.</div>
+        <div>Have you been searching for a Software Engineer that is considerate, understanding, works well with a team or alone,
+          puts forth effort and has the skills and knowledge to complete the work you need done?
+          Hello. My name is Casey Spears. I'm a Software Engineer who was primarily trained and graduated from App Academy.
+          Feel free to peruse my professional links and personal projects(including team projects).
+        </div>
       </div>
       <div className='clickables'>
         <div onClick={handleLinks} value='links'>Links</div>
