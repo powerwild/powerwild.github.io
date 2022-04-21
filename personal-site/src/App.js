@@ -99,7 +99,7 @@ function App() {
             <img className='proj-img' src={LO} alt='My project'/>
             <div className='proj-dets'>Game Traderz is an online trading application for the temporary exchange of physical copies of games owned by users.</div>
             <div className='proj-links'>
-              <a href='https://lifeoverflow.herokuapp.com' target='_blank' rel="noreferrer">Live site</a>
+              <a href='https://life-overflow-app.herokuapp.com' target='_blank' rel="noreferrer">Live site</a>
               <a href='https://github.com/DavidPhamThinkful/Life-Overflow' target='_blank' rel="noreferrer">Repository</a>
             </div>
           </li>
