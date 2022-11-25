@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import pic from './profile-pic.jpg';
-import LO from './LifeOverflow.png';
 import HB from './HauntedBnb.png';
 import DEV from './Develp.png';
 import GT from './GameTraderz.png';
@@ -75,7 +74,7 @@ function App() {
             <img className='proj-img' src={GT} alt='My project'/>
             <div className='proj-dets'>Game Traderz is an online trading application for the temporary exchange of physical copies of games owned by users.</div>
             <div className='proj-links'>
-              <a href='https://game-traderz.herokuapp.com' target='_blank' rel="noreferrer">Live site</a>
+              <a href='https://game-traderz.onrender.com' target='_blank' rel="noreferrer">Live site</a>
               <a href='https://github.com/powerwild/game-traderz' target='_blank' rel="noreferrer">Repository</a>
             </div>
           </li>
@@ -83,7 +82,7 @@ function App() {
             <img className='proj-img' src={DEV} alt='My project'/>
             <div className='proj-dets'>Develp is an application for reviewing and rating developers you have interacted with in a professional setting.</div>
             <div className='proj-links'>
-              <a href='https://develp7.herokuapp.com' target='_blank' rel="noreferrer">Live site</a>
+              <a href='https://develp.onrender.com' target='_blank' rel="noreferrer">Live site</a>
               <a href='https://github.com/powerwild/deVelp' target='_blank' rel="noreferrer">Repository</a>
             </div>
           </li>
@@ -91,16 +90,8 @@ function App() {
             <img className='proj-img' src={HB} alt='My project'/>
             <div className='proj-dets'>HauntedBnB is a clone of AirBnB with a haunted/decrepit spin for those that like to live life with one foot in the grave.</div>
             <div className='proj-links'>
-              <a href='https://haunted-bnb.herokuapp.com' target='_blank' rel="noreferrer">Live site</a>
+              <a href='https://haunted-bnb.onrender.com' target='_blank' rel="noreferrer">Live site</a>
               <a href='https://github.com/powerwild/HauntedBnB' target='_blank' rel="noreferrer">Repository</a>
-            </div>
-          </li>
-          <li className='project'>
-            <img className='proj-img' src={LO} alt='My project'/>
-            <div className='proj-dets'>Game Traderz is an online trading application for the temporary exchange of physical copies of games owned by users.</div>
-            <div className='proj-links'>
-              <a href='https://life-overflow-app.herokuapp.com' target='_blank' rel="noreferrer">Live site</a>
-              <a href='https://github.com/DavidPhamThinkful/Life-Overflow' target='_blank' rel="noreferrer">Repository</a>
             </div>
           </li>
         </ul>
@@ -122,7 +113,6 @@ function App() {
       ) : null}
       {showContactInfo ? (<div className='contact-info'>
         <div>Email: spearscase@gmail.com</div>
-        <div>Phone: 720 939 1719</div>
         <div>Or feel free to message me through Linkedin or AngelList</div>
       </div>) : null}
     </div>
