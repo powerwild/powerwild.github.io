@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3d332315.css",
+    "main.js": "/static/js/main.e4faf398.js",
+    "static/media/GameTraderz.png": "/static/media/GameTraderz.397fce100d533fd6d59e.png",
+    "static/media/Develp.png": "/static/media/Develp.a5d0ebb96b67ad10ef00.png",
+    "static/media/HauntedBnb.png": "/static/media/HauntedBnb.a57706dfe3273ae1dcb9.png",
+    "static/media/profile-pic.jpg": "/static/media/profile-pic.46e7a66acbb785f7e4a8.jpg",
+    "index.html": "/index.html",
+    "main.3d332315.css.map": "/static/css/main.3d332315.css.map",
+    "main.e4faf398.js.map": "/static/js/main.e4faf398.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d332315.css",
+    "static/js/main.e4faf398.js"
+  ]
+}
